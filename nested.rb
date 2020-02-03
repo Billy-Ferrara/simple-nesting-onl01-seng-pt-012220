@@ -20,7 +20,7 @@ end
 hopper
 
 def alan_kay_is_known_for
-	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
+
 
 	programmer_hash =
  		{
@@ -60,18 +60,12 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-# there are two ways of solving this:
-# programmer_hash[:dennis_ritchie][:languages].first
-	programmer_hash[:dennis_ritchie][:languages][0]
+
 end
 
 
 def adding_matz
-# add the following information to the top level of programmer_hash
-# :yukihiro_matsumoto => {
-#   :known_for => "Ruby",
-#    :languages => ["LISP, C"]
-# }
+
 
 	programmer_hash =
  		{
@@ -97,10 +91,7 @@ def adding_matz
     
   programmer_hash
     
-    
-# Here is the learn.co way of doing it.    
-# programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
-# programmer_hash
+
 end
 
 adding_matz
